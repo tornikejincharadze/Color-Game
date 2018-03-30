@@ -1,0 +1,92 @@
+body{
+	background-color: black!important;
+	text-transform: uppercase;
+}
+h1{
+	color: white!important;
+	text-align: center;
+}
+.square{
+	background-color: purple;
+	width: 30%;
+	height: 200px;
+	margin: 18px;
+	display: inline-block;
+	border-radius: 30px;
+	-webkit-transition:all 0.7s;
+	-moz-transition:all 0.7s;
+	transition: all 0.7s;
+}
+.strike{
+	text-align: center;	
+    background: white;
+}
+div a{
+	text-decoration: none;
+}
+.strike a{
+	text-transform: uppercase;
+
+}
+#isCorrect{
+	color: white;
+}
+a{
+	text-decoration: none!important;
+	color: white!important;
+}
+.selected{
+	color: white!important;
+	background: blue;
+}
+.hidden{
+	display: none;
+}
+.header{
+	display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.header span{
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+header{
+	background: blue;
+	-webkit-transition:all 0.7s;
+	-moz-transition:all 0.7s;
+	transition: all 0.7s;
+}
+#first-section{
+	background: white;
+}
+button{
+	background: transparent;
+	border:0px;
+	padding: 0px;
+	margin: 0px;
+	-webkit-transition:all 0.7s;
+	-moz-transition:all 0.7s;
+	transition: all 0.5s;
+}
+#newColors,#easyBtn,#hardBtn,#isCorrect{
+	color: blue;
+	text-transform: uppercase;
+	outline: none;
+}
+#colorDisplay{
+	letter-spacing: 10px;
+}
+button{
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-right:15px;
+	padding-left:15px;
+}
+button:hover{
+	background: blue;
+	color: white!important;
+}
